@@ -6,13 +6,13 @@ class ConfigMicroApp {
         tag: 'microflow-vanilla',
         path: '/vanillajs',
         resources: 'resources/micro-flow-vanilla.js',
-        default: false,
+        layout: 'full-width',
       },
       {
         tag: 'micro-app-demo',
         path: '/admin-user/list',
         resources: 'resources/micro-app.vendor.js',
-        default: true,
+        layout: 'dashboard-width',
       }
     ]
   }

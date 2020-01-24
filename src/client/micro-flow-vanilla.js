@@ -21,6 +21,7 @@ class MicroFlowJavascript extends HTMLElement {
     container.innerHTML = `
       <div>
         <h3>Micro Flow, create with Javascript Vanilla using to WebComponents</h3>
+        <a href="#/admin-user/list" >Ir Home</a>
       </div>
     `;
     shadow.appendChild(style);
